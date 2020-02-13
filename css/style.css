@@ -172,9 +172,33 @@ ul li{
 	padding:280px 0;
 }
 
+nav ul.mobile{
+	padding: 20px 5px !important;
+}
+
+nav ul.mobile li img{
+	width:200px;
+}
+
+
+nav ul.mobile li:nth-child(1){
+    margin-left: 0;
+    margin-right: auto;
+}
+
+nav ul.mobile li:nth-child(2){
+	    margin-right: 0;
+    margin-left: auto;
+}
+
+
+nav ul.mobile li:nth-child(2) a{
+	 margin:0 !important;
+}
+
 
 .header .logo{
-	width: 80% !important;
+	width: 60% !important;
 }
 
 .logo{
