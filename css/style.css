@@ -113,13 +113,17 @@ h1,h2,h3,h6{
 	color:#005285 !important;
 }
 
+h2.title{
+	margin:0 0 57px 0;
+
+}
+
 h2{
 	font-size:34px;
 	color:#222222;
 	font-family: 'GothamBlack', sans-serif;
 	font-weight:700;
 	letter-spacing: -1px;
-	margin:0 0 15px 0;
 	text-align:center;
 	text-transform:uppercase;
 }
@@ -169,8 +173,19 @@ ul li{
 	background-repeat: no-repeat;
 	background-position:center;
 	background-size: cover;
-	padding:280px 0;
+	/*padding:280px 0;*/
+	height: 100vh;
 }
+
+nav .flex li .flex li {
+	    margin-right: 9px;
+}
+
+nav .flex li .flex li a {
+	    margin:0 !important;
+}
+
+
 
 nav ul.mobile{
 	padding: 20px 5px !important;
@@ -198,7 +213,7 @@ nav ul.mobile li:nth-child(2) a{
 
 
 .header .logo{
-	width: 60% !important;
+	width: 60% ;
 }
 
 .logo{
@@ -250,7 +265,7 @@ color: #fff;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'GothamMedium', sans-serif;
 	display:inline-block;
 	border-radius:3px;
 	text-transform:uppercase;
@@ -471,9 +486,11 @@ color: #fff;
 	text-decoration:none;
 }
 
-.portfolioContainer{
+.portfolioContainer {
 	margin:0 auto;
 	padding-left:15px;
+    height: 374PX !important;
+
 }
 
 .Portfolio-box{
@@ -492,20 +509,20 @@ color: #fff;
 	-webkit-transition:all 0.3s ease-in-out;	
 }
 
-.Portfolio-box.pampasTrading ul li .description{
+.Portfolio-box ul li .description{
 	  margin-left:29px;
 }
 
-.Portfolio-box.pampasTrading  ul li {
+.Portfolio-box  ul li {
 	width:50%;
 } 
 
-.Portfolio-box.pampasTrading  ul li .description p {
+.Portfolio-box  ul li .description p {
     font-size: 1.48rem;
     color:#414042;
 } 
 
-.Portfolio-box.pampasTrading  ul li .description h3 {
+.Portfolio-box  ul li .description h3 {
 	font-size: 2.59rem;
 	text-align:left;
     margin-bottom: 22px;
@@ -763,20 +780,39 @@ border: 2px solid #fff;
 }
 .contact-info-box{
 	font-size:15px;
-	margin:0 0 10px 0;
+	margin:0 0 4px 0;
 	padding-left:0;
 }
 
 .main-section.contact .subtitle{
-	margin:0 0 20px 0;
+    
 	font-family: 'GothamBook';
+	font-size: 2.4rem;
+}
+
+.main-section.contact .subtitle{
+    margin: 25px 0 10px 0;
+}
+
+.main-section.contact .subtitle:nth-child(1){
+    margin: 0px 0 10px 0;
 }
 
 
-.contact-info-box.phone{
-	margin-bottom:20px;
 
+.main-section.contact a {
+	color:#005285;
 }
+
+
+
+
+
+.main-section.contact>.row>.col-lg-6.col-sm-7.wow.fadeInLeft h2:nth-child(4){
+	margin-top: 48px !important;
+}
+
+
 
 
 .contact-info-box h3{
@@ -1015,7 +1051,7 @@ border: 2px solid #fff;
 }
 
 .res-nav_click:hover, .res-nav_click:active, .res-nav_click:focus {
-	color: #7cc576 !important;
+	color: #005285 !important;
 }
 
 .portfolioContainer{
