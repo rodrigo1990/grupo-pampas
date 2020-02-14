@@ -2,7 +2,7 @@
 function contactForm(){
 
         var nombre = $("form #name").val();
-        var mail = $("form #email").val();
+        var email = $("form #email").val();
         var asunto = $("form #subject").val();
         var mensaje = $("form #message").val();
 
@@ -22,7 +22,7 @@ function contactForm(){
             nombreValidated=true;
         }
 
-        if(mail.length<3||mail.search(emailValido)){
+        if(email.length<3||email.search(emailValido)){
             $("#mail-error").fadeIn();
             mailValidated=false;                    
         }else{
@@ -56,10 +56,10 @@ function contactForm(){
 
         if(nombreValidated==true&&mailValidated==true&&asuntoValidated==true&&mensajeValidated==true){
       
-            $.ajax({
+            jq13.ajax({
                 type: "POST",
                 url: "contactform/mail.php",
-                data: {nombre:nombre, mail:mail, asunto:asunto, mensaje:mensaje}, success: function(msg){
+                data: {nombre:nombre, email:email, asunto:asunto, mensaje:mensaje}, success: function(msg){
                     alert('EMAIL ENVIADO CON EXITO');
                     
                     

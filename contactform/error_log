@@ -1,0 +1,115 @@
+[14-Feb-2020 19:58:12 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 19:58:12 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 29
+[14-Feb-2020 19:58:12 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 30
+[14-Feb-2020 19:58:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 31
+[14-Feb-2020 19:59:23 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 19:59:23 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 29
+[14-Feb-2020 19:59:23 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 30
+[14-Feb-2020 19:59:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 31
+[14-Feb-2020 19:59:33 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 19:59:33 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 29
+[14-Feb-2020 19:59:33 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 30
+[14-Feb-2020 19:59:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 31
+[14-Feb-2020 20:00:49 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:00:49 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 29
+[14-Feb-2020 20:00:49 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 30
+[14-Feb-2020 20:00:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 31
+[14-Feb-2020 20:01:09 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:01:09 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 29
+[14-Feb-2020 20:01:09 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 30
+[14-Feb-2020 20:01:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 31
+[14-Feb-2020 20:03:40 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:03:40 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 29
+[14-Feb-2020 20:03:40 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 30
+[14-Feb-2020 20:03:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 31
+[14-Feb-2020 20:04:10 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:04:10 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 29
+[14-Feb-2020 20:04:10 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 30
+[14-Feb-2020 20:04:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 31
+[14-Feb-2020 20:04:18 UTC] PHP Warning:  Creating default object from empty value in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:04:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::AddAddress() in /home/grupopampas/public_html/contactform/mail.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 31
+[14-Feb-2020 20:04:20 UTC] PHP Warning:  Creating default object from empty value in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:04:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::AddAddress() in /home/grupopampas/public_html/contactform/mail.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 31
+[14-Feb-2020 20:06:19 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 25
+[14-Feb-2020 20:06:19 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 26
+[14-Feb-2020 20:06:19 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 27
+[14-Feb-2020 20:06:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:08:32 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 24
+[14-Feb-2020 20:08:32 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 25
+[14-Feb-2020 20:08:32 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 26
+[14-Feb-2020 20:08:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 27
+[14-Feb-2020 20:08:50 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 24
+[14-Feb-2020 20:08:50 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 25
+[14-Feb-2020 20:08:50 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 26
+[14-Feb-2020 20:08:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 27
+[14-Feb-2020 20:18:09 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 25
+[14-Feb-2020 20:18:09 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 26
+[14-Feb-2020 20:18:09 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 27
+[14-Feb-2020 20:18:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:20:22 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 25
+[14-Feb-2020 20:20:22 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 26
+[14-Feb-2020 20:20:22 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 27
+[14-Feb-2020 20:20:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:23:13 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 25
+[14-Feb-2020 20:23:13 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 26
+[14-Feb-2020 20:23:13 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 27
+[14-Feb-2020 20:23:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:27:37 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 27
+[14-Feb-2020 20:27:37 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:27:37 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 29
+[14-Feb-2020 20:27:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 30
+[14-Feb-2020 20:29:10 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 27
+[14-Feb-2020 20:29:10 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 28
+[14-Feb-2020 20:29:10 UTC] PHP Warning:  Attempt to assign property of non-object in /home/grupopampas/public_html/contactform/mail.php on line 29
+[14-Feb-2020 20:29:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function AddAddress() on string in /home/grupopampas/public_html/contactform/mail.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/grupopampas/public_html/contactform/mail.php on line 30

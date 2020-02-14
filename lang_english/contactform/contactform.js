@@ -1,102 +1,69 @@
 
-jQuery(document).ready(function($) {
-"use strict";
+function contactForm(){
 
-    //Contact
-    $('form.contactForm').submit(function(){
+        var nombre = $("form #name").val();
+        var email = $("form #email").val();
+        var asunto = $("form #subject").val();
+        var mensaje = $("form #message").val();
 
-        var f = $(this).find('.form-group'), 
-        ferror = false, 
-        emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
+        var nombreValidated = false;
+        var mailValidated = false;
+        var asuntoValidated = false;
+        var mensajeValidated = false;
 
-        f.children('input').each(function(){ // run all inputs
+        var emailValido=/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-            var i = $(this); // current input
-            var rule = i.attr('data-rule');
 
-            if( rule !== undefined ){
-            var ierror=false; // error flag for current input
-            var pos = rule.indexOf( ':', 0 );
-            if( pos >= 0 ){
-                var exp = rule.substr( pos+1, rule.length );
-                rule = rule.substr(0, pos);
-            }else{
-                rule = rule.substr( pos+1, rule.length );
-            }
-            
-            switch( rule ){
-                case 'required':
-                if( i.val()==='' ){ ferror=ierror=true; }
-                break;
-                
-                case 'minlen':
-                if( i.val().length<parseInt(exp) ){ ferror=ierror=true; }
-                break;
+       if(nombre.length<4){
+            $("#name-error").fadeIn();
+            nombreValidated=false;
+        }else{
+            $("#name-error").fadeOut();
+            nombreValidated=true;
+        }
 
-                case 'email':
-                if( !emailExp.test(i.val()) ){ ferror=ierror=true; }
-                break;
+        if(email.length<3||email.search(emailValido)){
+            $("#mail-error").fadeIn();
+            mailValidated=false;                    
+        }else{
+            $("#mail-error").fadeOut();
+            mailValidated=true;
+        }
 
-                case 'checked':
-                if( !i.attr('checked') ){ ferror=ierror=true; }
-                break;
-                
-                case 'regexp':
-                exp = new RegExp(exp);
-                if( !exp.test(i.val()) ){ ferror=ierror=true; }
-                break;
-            }
-                i.next('.validation').html( ( ierror ? (i.attr('data-msg') !== undefined ? i.attr('data-msg') : 'wrong Input') : '' ) ).show('blind');
-            }
-        });
-        f.children('textarea').each(function(){ // run all inputs
 
-            var i = $(this); // current input
-            var rule = i.attr('data-rule');
+       if(asunto.length<4){
+            $("#subject-error").fadeIn();
+            asuntoValidated=false;
+        }else{
+            $("#subject-error").fadeOut();
+            asuntoValidated=true;
+        }
 
-            if( rule !== undefined ){
-            var ierror=false; // error flag for current input
-            var pos = rule.indexOf( ':', 0 );
-            if( pos >= 0 ){
-                var exp = rule.substr( pos+1, rule.length );
-                rule = rule.substr(0, pos);
-            }else{
-                rule = rule.substr( pos+1, rule.length );
-            }
-            
-            switch( rule ){
-                case 'required':
-                if( i.val()==='' ){ ferror=ierror=true; }
-                break;
-                
-                case 'minlen':
-                if( i.val().length<parseInt(exp) ){ ferror=ierror=true; }
-                break;
-            }
-                i.next('.validation').html( ( ierror ? (i.attr('data-msg') != undefined ? i.attr('data-msg') : 'wrong Input') : '' ) ).show('blind');
-            }
-        });
-        if( ferror ) return false; 
-        else var str = $(this).serialize();		
-            $.ajax({
+
+        if(mensaje.length<4){
+            $("#msj-error").fadeIn();
+            mensajeValidated=false;
+        }else{
+            $("#msj-error").fadeOut();
+            mensajeValidated=true;
+        }
+
+
+
+
+
+
+
+        if(nombreValidated==true&&mailValidated==true&&asuntoValidated==true&&mensajeValidated==true){
+      
+            jq13.ajax({
                 type: "POST",
-                url: "contactform/contactform.php",
-                data: str,
-                success: function(msg){
-                   // alert(msg);
-                    if(msg == 'OK') {
-                        $("#sendmessage").addClass("show");			
-                        $("#errormessage").removeClass("show");	
-                    }
-                    else {
-                        $("#sendmessage").removeClass("show");
-                        $("#errormessage").addClass("show");
-                        $('#errormessage').html(msg);
-                    }
+                url: "contactform/mail.php",
+                data: {nombre:nombre, email:email, asunto:asunto, mensaje:mensaje}, success: function(msg){
+                    alert('MAIL SENDED SUCCESFULLY');
+                    
                     
                 }
             });
-        return false;
-    });
-
-});
+        }
+}//function

@@ -1,8 +1,8 @@
 <!doctype html>
 <html>
 
-<head>
-	<meta charset="utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
 	<meta name="viewport" content="width=device-width, maximum-scale=1">
 
 	<title>GRUPO PAMPAS</title>
@@ -20,6 +20,13 @@
 	
 
 	<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+	<script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+      <script>
+        jq13 = jQuery.noConflict(true);
+    </script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
@@ -304,23 +311,23 @@
 						<div id="errormessage"></div>
 						<form action="" method="post" role="form" class="contactForm">
 							<div class="form-group">
-								<input type="text" name="name" class="form-control input-text" id="name" placeholder="Name" data-rule="minlen:4" data-msg="Enter at least 4 characters" />
-								<div class="validation"></div>
+								<input type="text" name="name" class="form-control input-text" id="name" placeholder="Name"  />
+								<p class="error" id="name-error">Enter a valid name</p>
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control input-text" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Enter a valid email" />
-								<div class="validation"></div>
+								<input type="email" class="form-control input-text" name="email" id="email" placeholder="Email"  />
+								<p class="error" id="mail-error">Enter a valid mail</p>
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Enter at least 8 characters  in this field" />
-								<div class="validation"></div>
+								<input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject"/>
+								<p class="error" id="subject-error">Enter a valid subject</p>
 							</div>
 							<div class="form-group">
-								<textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Enter a message" placeholder="Message"></textarea>
-								<div class="validation"></div>
+								<textarea class="form-control input-text text-area" name="message" rows="5" id="message" placeholder="Message"></textarea>
+								<p class="error" id="msj-error">Enter a valid message</p>
 							</div>
 
-							<div class="text-right"><button type="submit" class="input-btn">¡Send!</button></div>
+							<div class="text-right"><a  class="input-btn" onClick="contactForm()">¡Send!</a></div>
 						</form>
 					</div>
 				</div>
