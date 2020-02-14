@@ -55,18 +55,20 @@
 				<li class="small-logo"><a href="#header"><img src="img/logo-blue.png" alt=""></a></li>
 				
 				<li><a href="#service">¿QUIÉNES SOMOS?</a></li>
-				<li><a href="#Portfolio">QUÉ HACEMOS?</a></li>
+				<li><a href="#Portfolio">¿QUÉ HACEMOS?</a></li>
 				<li><a href="#contact">CONTACTO</a></li>
 				<li>
 					<ul class="flex flex-horizontal-align">
 						<li>
 							<a href="lang_english">
-								<img src="img/eeuu_flag.png" alt="" width="22px;">
+								<!--  <img src="img/eeuu_flag.png" alt="" width="22px;">-->
+								ENG
 							</a>
 						</li>
 						<li>
 							<a href="">
-								<img src="img/esp_flag.png" alt="" width="22px;">
+								<!--  <img src="img/esp_flag.png" alt="" width="22px;">-->
+								ESP
 							</a>
 						</li>
 					</ul>
@@ -298,23 +300,23 @@
 						<div id="errormessage"></div>
 						<form action="" method="post" role="form" class="contactForm">
 							<div class="form-group">
-								<input type="text" name="name" class="form-control input-text" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Ingrese al menos 4 caracteres" />
-								<div class="validation"></div>
+								<input type="text" name="name" class="form-control input-text" id="name" placeholder="Nombre"  />
+								<p class="error" id="name-error">Ingrese un nombre valido</p>
 							</div>
 							<div class="form-group">
-								<input type="email" class="form-control input-text" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Ingrese un eMail valido" />
-								<div class="validation"></div>
+								<input type="email" class="form-control input-text" name="email" id="email" placeholder="Email"  />
+								<p class="error" id="mail-error">Ingrese un mail valido</p>
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Asunto" data-rule="minlen:4" data-msg="Ingrese 8 caracteres al menos en el asunto" />
-								<div class="validation"></div>
+								<input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Asunto" />
+								<p class="error" id="subject-error">Ingrese un asunto valido</p>
 							</div>
 							<div class="form-group">
-								<textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Ingrese un mensaje" placeholder="Mensaje"></textarea>
-								<div class="validation"></div>
+								<textarea class="form-control input-text text-area" name="message" id="message" rows="5"  placeholder="Mensaje"></textarea>
+								<p class="error" id="msj-error">Ingrese un mensaje</p>
 							</div>
 
-							<div class="text-right"><button type="submit" class="input-btn">¡Enviar!</button></div>
+							<div class="text-right"><a  class="input-btn" onClick="contactForm()">¡Enviar!</a></div>
 						</form>
 					</div>
 				</div>

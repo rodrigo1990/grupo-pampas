@@ -16,6 +16,8 @@
 	#contact  .contact-info-box {text-align: center !important;}
 	#contact  .subtitle {text-align: center !important;}
 	.form {margin: 40px 0 0 20px !important;  }
+	.Portfolio-box{    height: 590px;}
+	.portfolioContainer{    height: 515PX !important;}
 }
 
 
@@ -57,6 +59,7 @@
 	.Portfolio-nav li a{ padding:5px 16px;}
 	.Portfolio-nav li{ display:block;}
 	.Portfolio-box  ul li {width:100%; }
+	.Portfolio-box  ul li img{width:50%; }
 	
 	.Portfolio-box  ul.flex  {flex-direction: column;padding-left:0; }
 	.portfolioContainer{height: 782px !important;    padding-left: 0 !important; }

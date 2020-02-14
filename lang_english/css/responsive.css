@@ -3,6 +3,24 @@
    ========================================================================== */
 
 
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	/****Ipad Landscape 1024 Container 970 ****/
+
+	.service-list{ margin-bottom:30px;}
+	.c-logo-part ul li{ margin:0 15px;}
+	.form{ margin:0 0 0 20px}
+	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */
+		nav .mobile{display:none !important;}
+		.main-nav li a{font-size: 1rem;}
+	#contact  .contact-info-box {text-align: center !important;}
+	#contact  .subtitle {text-align: center !important;}
+	.form {margin: 40px 0 0 20px !important;  }
+	.Portfolio-box{    height: 590px;}
+	.portfolioContainer{    height: 515PX !important;}
+}
+
+
 @media only screen and (min-width: 992px) {
 	/****Ipad Landscape 1024 Container 970 ****/
 
@@ -33,7 +51,7 @@
 	.form{ margin:0;}
 	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
-	.main-nav{display:none !important;}
+	/*.main-nav{display:none !important;}*/
 	.main-nav li a{ padding:8px 15px;}
 	nav .mobile .res-nav_click{display:block;}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
@@ -41,6 +59,7 @@
 	.Portfolio-nav li a{ padding:5px 16px;}
 	.Portfolio-nav li{ display:block;}
 	.Portfolio-box  ul li {width:100%; }
+	.Portfolio-box  ul li img{width:50%; }
 	
 	.Portfolio-box  ul.flex  {flex-direction: column;padding-left:0; }
 	.portfolioContainer{height: 782px !important;    padding-left: 0 !important; }
@@ -69,6 +88,11 @@
 
 	.main-section.contact>.row>.col-lg-6.col-sm-7.wow.fadeInLeft h2:nth-child(4) {margin-top: 10px !important; }
 	.main-section.contact>.row>.col-lg-6.col-sm-7.wow.fadeInLeft h2:nth-child(6) {margin-bottom: 10px !important; }
+	.main-nav{ display:none; position:absolute; left:0; width:100%; top:68px; margin:0 auto; float: none; background:#fff; z-index: 99; border-top: 1px solid #eee;}
+	.main-nav li{ display:block;}
+	.main-nav li.small-logo{ display:none;}
+	.main-nav li a{ display:block; padding:12px 32px; margin: 4px 0; border-bottom: 1px solid #f3f3f3;;}
+	.main-nav li a:hover{color:#7cc576}
 
 
 
@@ -145,7 +169,10 @@
 	.main-section.contact>.row>.col-lg-6.col-sm-7.wow.fadeInLeft h2:nth-child(6) {margin-bottom: 10px !important; }
 
 	#service ul li img {width: 85px !important; }
+	nav  ul  li ul {padding-left:0 !important;}
+	nav  ul  li ul li a  {padding:0 !important;}
 	 /*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
+	}
 	.isotope-item{ width:300px; margin:0px auto;}
 	.isotope{ width:400px; margin:0px auto;}
 	.Portfolio-box{}

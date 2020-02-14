@@ -104,6 +104,12 @@ p{
 	margin:0;
 }
 
+.error{
+	display:none ;
+	color:red;
+	font-family: 'GothamBook';
+	font-size: 1.5rem;
+}
 
 p b{
 	font-family: GothamBold !important;
@@ -517,6 +523,10 @@ color: #fff;
 	width:50%;
 } 
 
+.Portfolio-box  ul li:nth-child(2) {
+	padding-right: 30px !important;
+} 
+
 .Portfolio-box  ul li .description p {
     font-size: 1.48rem;
     color:#414042;
@@ -911,6 +921,8 @@ border: 2px solid #fff;
 	overflow:auto;
 }
 .input-btn{
+	color:white !important;
+	font-size:2.5rem !important;
 	width:175px;
 	height:50px;
 	background:#005285;
@@ -924,12 +936,16 @@ border: 2px solid #fff;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
+	padding: 8px;
+	border:2px solid transparent ;
+	cursor:pointer;
 }
 
 .input-btn:hover{
 	background: white;
-	color: #005285;
+	color: #005285 !important;
 	border:2px solid #005285 ;
+	text-decoration: none !important;
 }
 
 .validation {

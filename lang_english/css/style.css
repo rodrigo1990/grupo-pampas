@@ -517,6 +517,10 @@ color: #fff;
 	width:50%;
 } 
 
+.Portfolio-box  ul li:nth-child(2) {
+	padding-right: 30px !important;
+} 
+
 .Portfolio-box  ul li .description p {
     font-size: 1.48rem;
     color:#414042;
